@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #cedfef;
+  }
+  
+  li {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  a:hover,
+  a:focus {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #333;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+  }
+
+  p {
+    margin: 0 0 10px 0;
+  }
+
+  /* Three new divs */
+  .box {
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #333;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .box-1 {
+    background-color: #538f6b;
+  }
+
+  .box-2 {
+    background-color: #8fbca1;
+  }
+
+  .box-3 {
+    background-color: #acd3bb;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
